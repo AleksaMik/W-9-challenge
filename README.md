@@ -12,3 +12,6 @@ Repository has a unique name. Repository follows best practices for file structu
 
 ## Process
 New simple README.md generator app was created. Based on user input program will create README.md file that contains: file title, table on content, license information, instructions for the installation, as well as questions, and user's contact information 
+
+## Links
+[Link to the Google Drive](https://drive.google.com/file/d/1MrLX_4rlwlDM3pIklc7HF8bDd0_FeEwQ/view)
