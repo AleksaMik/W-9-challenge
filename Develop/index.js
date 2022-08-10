@@ -39,17 +39,17 @@ function userInput(){
     type: 'input'},
 ])};
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.appendFile(`${fileName}.md`, data, 
-//     (err) => err ? console.error(err) : console.log(`${fileName}.md has been generated.`))
-// }
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.appendFile(`${fileName}.md`, data, 
+    (err) => err ? console.error(err) : console.log(`${fileName}.md has been generated.`))
+}
 
-// // TODO: Create a function to initialize app
-// async function init() {
-//     let answers = await userInput();
-//     writeToFile((answers.fileName),(generateMarkdown(answers)));
-// }
+// TODO: Create a function to initialize app
+async function init() {
+    let answers = await userInput();
+    writeToFile((answers.fileName),(generateMarkdown(answers)));
+}
 
-// // Function call to initialize app
-// init();
+// Function call to initialize app
+init();
